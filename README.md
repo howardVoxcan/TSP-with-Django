@@ -1,7 +1,3 @@
-Below is the updated README with a detailed example for the Sample Input and Sample Output sections:
-
----
-
 # ✨ Hamiltonian Cycle Finder Web Application ✨
 
 ## 🔍 Overview
@@ -111,10 +107,3 @@ Hamiltonian Cycle: 1 -> 3 -> 4 -> 5 -> 2 -> 1
 Total Cost: 100
 ```
 *The output shows a valid Hamiltonian cycle (starting and ending at vertex 1) and the total cost of traversing the cycle.*
-
-## 🌐 License
-This project is licensed under the MIT License.
-
----
-
-Let me know if you need any further modifications!
