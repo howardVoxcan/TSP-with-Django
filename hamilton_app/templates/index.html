@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamiltonian Cycle Finder</title>
+</head>
+<body>
+    <h2>Hamiltonian Cycle Finder</h2>
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="graph_data" rows="8" cols="40" placeholder="Graph's information"></textarea><br>
+        <button type="submit">Find Path</button>
+    </form>
+
+    {% if result %}
+        <h3>Result:</h3>
+        <p>{{ result }}</p>
+    {% endif %}
+
+    {% if error %}
+        <h3>Error:</h3>
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
